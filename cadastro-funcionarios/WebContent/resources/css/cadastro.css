@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+body {
+	background-color: #E0FFFF;
+	text-align: justify;
+}
+
+#topo{
+    width: 100%; 
+    height: 60px;
+    background-color: #17a2b8;
+    float: left;
+    text-align: center;
+    color: #E0FFFF;
+}
+
+#menu_lateral {
+    width: 12%;
+    height: 600px;
+    background-color: #87CEFF;
+    padding-top: 30px;
+    float: left;
+}
+
+#menu_lateral a {
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	padding-left: 10px;
+}
+
+#menu_lateral a:hover {
+	text-decoration: underline;
+}
+
+#menu_lateral li {
+	list-style: none;
+	text-decoration: none;
+}
+
+#menu_lateral_clinica {
+    width: 20%;
+    height: 1320px;
+    background-color: #87CEEB;
+    float: left;
+}
+
+#menu_lateral_clinica a {
+	text-decoration: none;
+	color: #5F9EA0;
+	font-size: 22px;
+}
+
+#menu_lateral_clinica a:hover {
+	text-decoration: underline;
+}
+
+#menu_lateral_clinica li {
+	list-style: none;
+	text-decoration: none;
+}
+
+.paragrafo p{
+	color: #4B0082;
+	font-family: tahoma;
+	font-size: 18px;
+	padding-left: 1px;
+}
+
+#rodape{
+    width: 100%;
+    height: 60px;
+    background-color: #5F9EA0;
+    float: left;
+    text-align: center;
+    color: #E0FFFF;
+}
+
+.img_clinica{
+	width: 760px;
+	height: 360px;
+	padding-top: 110px;
+	padding-left: 150px;
+}
+.clinica{
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+.img_especialidade{
+	width: 260px;
+	height: 160px;
+	padding-left: 370px;
+}
+
+.produto_descricao{
+    width: 80%;
+    height: 200px;
+    float: left;
+}
+
+h3 {
+	color: #008080;
+}
+
+h4 {
+	color: #808080;
+}
+
+.contato {
+	padding-top: 60px;
+	padding-left: 280px;
+}
+
+.msg {
+	text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+input, select, textarea {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #666;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #FFC;
+}
+
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+/*
+.botao {
+    font-size: 1.5em;
+    background: #F90;
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.botao:hover {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+*/
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
+.bt-az {
+	width: 90px;
+	height: 30px;
+	border-color: #C0C0C0;
+	background: linear-gradient(to bottom, #DCDCDC 5%, #C0C0C0 100%);
+	box-shadow: inset 0px 1px 0px 0px #DCDCDC;
+	color: #2F4F4F;
+	text-shadow: 0px 1px 0px #C0C0C0;  
+}
+
+.bt-az:hover {
+	background: linear-gradient(to bottom, #C0C0C0 5%, #DCDCDC 100%);
+}
+
+.cadastro {
+	padding-left: 600px;
+}
+
+.tabela-funcionarios {
+	background: #f5f5f5;
+	border-collapse: separate;
+	box-shadow: inset 0 1px 0 #fff;
+	font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 30px auto;
+	text-align: left;
+	width: 1200px;
+}
+
+.back-button {
+	padding-left: 640px;
+}
