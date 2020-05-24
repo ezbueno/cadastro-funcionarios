@@ -7,29 +7,23 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Home</title>
 <link rel="stylesheet" href="resources/css/cadastro.css">
 </head>
 <body>
 	<div id="topo">
-		<h1>Cadastro de Funcionários</h1>
 	</div>
 	<div id="menu_lateral">
 		<ul>
-			<li><a href="especialidade.jsp">Especialidades</a></li>
-			<li><a href="contato.jsp">Contato</a></li>
-			<li><a href="FuncionarioServlet?acao=listartodos">Listar</a></li>
-			<li><a href="index.jsp">Sair</a></li>
+			<li><a href="CadastroFuncionarioServlet?acao=cadastrar">Cadastro</a></li>
+			<li><a href="ListaFuncionarioServlet?acao=listartodos">Listar</a></li>
+			<li><a href="index.jsp" onclick="return confirm ('Deseja realmente Sair do sistema?')">Sair</a></li>
 		</ul>
 	</div>
 	
-	<div class="paragrafo">
-		<p>
-		</p>
 		<br/><br/>
 		<div>
-			<!-- <img class="img_clinica" src="resources/img/saudacao.png" /> -->
-			<h3 class="img_clinica">Bem-Vindo ao Sistema,
+			<h3 class="bem-vindo">Bem-Vindo ao Sistema,
 				<%
 					String login = request.getParameter("username");
 					
@@ -44,9 +38,8 @@
 				%>
 			</h3>
 		</div>
-	</div>
 	<div id="rodape">
-		Todos os direitos reservados © 2020<br> 
+		<br/>Todos os direitos reservados © 2020<br/> 
 		Desenvolvido por Ezandro Bueno
 	</div>
 </body>
