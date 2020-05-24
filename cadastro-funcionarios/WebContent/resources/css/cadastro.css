@@ -3,6 +3,7 @@
 body {
 	background-color: white;
 	text-align: justify;
+	overflow-y:hidden;
 }
 
 #topo{
@@ -43,15 +44,6 @@ body {
 	font-family: tahoma;
 	font-size: 18px;
 	padding-left: 1px;
-}
-
-#rodape{
-    width: 100%;
-    height: 60px;
-    background-color: #17a2b8;
-    float: left;
-    text-align: center;
-    color: #E0FFFF;
 }
 
 .bem-vindo{

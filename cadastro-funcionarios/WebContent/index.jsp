@@ -16,7 +16,7 @@
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
-                        <form id="login-form" class="form" action="LoginServlet" method="post">
+                        <form id="login-form" class="form" action="LoginServlet" method="post" onsubmit="return validarLoginSenha() ? true : false">
                             <h3 class="text-center text-info">Login</h3>
                             <div class="form-group">
                                 <label for="username" class="text-info">Usuário:</label><br>
@@ -35,5 +35,22 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+		function validarLoginSenha() {
+			var login = document.getElementById("username").value;
+			var senha = document.getElementById("password").value;
+			if (login == "" && senha == "") {
+				alert("ATENÇÃO! Favor informar o login e a senha!");
+				return false;
+			} else if (login == "" && senha != "") {
+				alert("ATENÇÃO! Favor informar o login!");
+				return false;
+			}  else if (login != "" && senha == "") {
+				alert("ATENÇÃO! Favor informar a senha!");
+				return false;
+			}
+			return true;
+		}
+	</script>
 </body>
 </html>

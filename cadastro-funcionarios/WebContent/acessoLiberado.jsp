@@ -15,7 +15,7 @@
 	</div>
 	<div id="menu_lateral">
 		<ul>
-			<li><a href="CadastroFuncionarioServlet?acao=cadastrar">Cadastro</a></li>
+			<li><a href="CadastroFuncionarioServlet?acao=cadastrar">Cadastrar</a></li>
 			<li><a href="ListaFuncionarioServlet?acao=listartodos">Listar</a></li>
 			<li><a href="index.jsp" onclick="return confirm ('Deseja realmente Sair do sistema?')">Sair</a></li>
 		</ul>
@@ -38,9 +38,5 @@
 				%>
 			</h3>
 		</div>
-	<div id="rodape">
-		<br/>Todos os direitos reservados © 2020<br/> 
-		Desenvolvido por Ezandro Bueno
-	</div>
 </body>
 </html>
